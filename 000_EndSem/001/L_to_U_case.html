@@ -1,0 +1,18 @@
+<!-- Write a Java script code which checks the contents entered in a forms text element. If the text entered is in the lower cases convert -->
+<html>
+    <head>
+        <script>
+        function fun()
+        {
+            var x=document.f.string.value.toUpperCase();
+            document.f.string.value=x;
+        }
+    </script>
+    </head>
+    <body>
+        <form name="f">
+            <input type="text" name="string" />
+            <input type="button" value="click here" onclick="fun()">
+        </form>
+    </body>
+</html>
